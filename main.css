@@ -44,6 +44,8 @@ margin-inline: 100px;
 
 }
 .menyu-main-text{
+    display: flex;
+    flex-direction: column;
     width: 431px;
     height:490px;
 }
@@ -94,10 +96,10 @@ margin-inline: 100px;
 }
 .main-item{
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 70px;
-   padding-left: 160px;
+   padding-left: 200px;
    gap: 40px;
 }
 .main-items-1{
