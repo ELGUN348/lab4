@@ -15,10 +15,11 @@ margin-inline: 100px;
     display: flex;
     justify-content: space-between;
 }
-.logo{
-    width: 219px;
+.mwnyu_logo{
+    
+    width: 309px;
     height: 56px;
-    margin-top: 5px;
+    
 }
 .menyu-nav{
     display: flex;
@@ -95,11 +96,11 @@ margin-inline: 100px;
  
 }
 .main-item{
-    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin-top: 70px;
-     margin-left: 30px;
+     justify-content: center;
    gap: 40px;
 }
 .main-items-1{
