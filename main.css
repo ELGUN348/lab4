@@ -222,6 +222,10 @@ margin-inline: 100px;
     background-color:#B9FF66;
     font-size: 28px
 }
+.main-title-container{
+    display: flex;
+    justify-content: center;
+}
 .main-title{
     margin-top: 140px;
   margin-left: 20px;
@@ -336,7 +340,8 @@ margin-inline: 100px;
 }
 .main-box{
     margin-top: 100px;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     gap: 30px;
 
@@ -546,7 +551,7 @@ font-size: 70px;
      .menyu-footer-text{
         display: flex;
         flex-direction: column;
-        margin-left: 50px;
+        margin-left: 100px;
         margin-top: 60px;
      }
      .menyu-footer-p{
